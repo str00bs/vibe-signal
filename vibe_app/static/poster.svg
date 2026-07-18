@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#150F17"/>
+
+  <!-- outer frame -->
+  <rect x="28" y="28" width="1144" height="574" fill="none" stroke="#F5EAE8" stroke-opacity="0.14"/>
+
+  <!-- crop marks -->
+  <g stroke="#6E5C68" stroke-width="1.2" fill="none">
+    <path d="M28,46 V28 H46"/>
+    <path d="M1154,46 V28 H1172"/>
+    <path d="M28,584 V602 H46"/>
+    <path d="M1154,584 V602 H1172"/>
+  </g>
+
+  <!-- masthead: mark + wordmark -->
+  <g transform="translate(64,58)">
+    <rect width="46" height="46" fill="#150F17" stroke="#F5EAE8" stroke-opacity="0.14"/>
+    <path d="M6,27 L13,27 L18.5,8.5 L24,37 L29.5,18.5 L35,27 L40,27" fill="none" stroke="#FF3E8F" stroke-width="4.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="18.5" cy="8.5" r="6.5" fill="#FF3E8F" opacity="0.28"/>
+    <circle cx="18.5" cy="8.5" r="3.2" fill="#FF3E8F" stroke="#150F17" stroke-width="1"/>
+  </g>
+  <text x="122" y="91" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="26" letter-spacing="0.3">
+    <tspan fill="#F5EAE8">Vibe</tspan><tspan fill="#FF3E8F">Signal</tspan>
+  </text>
+
+  <!-- eyebrow, top right -->
+  <circle cx="950" cy="72" r="9" fill="#FF3E8F" opacity="0.25"/>
+  <circle cx="950" cy="72" r="4" fill="#FF3E8F"/>
+  <text x="1136" y="77" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="500" letter-spacing="2" fill="#A8909F">SIGNAL LINE // LIVE</text>
+
+  <!-- decorative waveform flourish -->
+  <path d="M820,260 L860,260 L895,150 L935,330 L975,190 L1015,260 L1060,260"
+        fill="none" stroke="#FF3E8F" stroke-opacity="0.32" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- headline -->
+  <text x="62" y="272" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="88" fill="#F5EAE8">the</text>
+  <text x="62" y="367" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="88" fill="#FF3E8F">control room</text>
+
+  <!-- rule -->
+  <line x1="64" y1="402" x2="1136" y2="402" stroke="#F5EAE8" stroke-opacity="0.14"/>
+
+  <!-- tagline -->
+  <text font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#A8909F">
+    <tspan x="64" y="442">Mastodon favourites, boosts, quotes, and tagged replies drive a Lovense toy</tspan>
+    <tspan x="64" y="472">through a self-armed control room &#8212; rate-limited, queued, and logged.</tspan>
+  </text>
+
+  <!-- footer -->
+  <text x="64" y="572" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="13" fill="#6E5C68">MIT licensed &#8212; do whatever you want with this.</text>
+  <text x="1136" y="572" text-anchor="end" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="13" fill="#FF3E8F">made with &#128147; by @adatje</text>
+</svg>

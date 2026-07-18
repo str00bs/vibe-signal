@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1448" width="900" height="1448">
+  <rect width="900" height="1448" fill="#150F17"/>
+
+  <!-- outer frame -->
+  <rect x="28" y="28" width="844" height="1392" fill="none" stroke="#F5EAE8" stroke-opacity="0.14"/>
+
+  <!-- crop marks -->
+  <g stroke="#6E5C68" stroke-width="1.2" fill="none">
+    <path d="M28,46 V28 H46"/>
+    <path d="M854,46 V28 H872"/>
+    <path d="M28,1402 V1420 H46"/>
+    <path d="M854,1402 V1420 H872"/>
+  </g>
+
+  <!-- eyebrow -->
+  <circle cx="72" cy="86" r="9" fill="#FF3E8F" opacity="0.25"/>
+  <circle cx="72" cy="86" r="4" fill="#FF3E8F"/>
+  <text x="90" y="91" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="500" letter-spacing="2" fill="#A8909F">SIGNAL LINE // @ADATJE@KINKYCATS.ORG</text>
+
+  <!-- headline -->
+  <text x="62" y="190" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="70"><tspan fill="#F5EAE8">Vibe</tspan><tspan fill="#FF3E8F">Signal</tspan></text>
+
+  <!-- sub -->
+  <text font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#A8909F">
+    <tspan x="64" y="244">Every favourite, boost, quote, and reply on my posts reaches a real toy, live.</tspan>
+    <tspan x="64" y="272">No app to install, no DM required &#8212; just react, and I feel it.</tspan>
+  </text>
+
+  <!-- section label -->
+  <line x1="64" y1="314" x2="836" y2="314" stroke="#F5EAE8" stroke-opacity="0.14"/>
+  <text x="64" y="336" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" letter-spacing="2" fill="#6E5C68">WHAT EACH REACTION SENDS</text>
+
+  <!-- row separators -->
+  <g stroke="#F5EAE8" stroke-opacity="0.07">
+    <line x1="64" y1="356" x2="836" y2="356"/>
+    <line x1="64" y1="506" x2="836" y2="506"/>
+    <line x1="64" y1="656" x2="836" y2="656"/>
+    <line x1="64" y1="806" x2="836" y2="806"/>
+    <line x1="64" y1="956" x2="836" y2="956"/>
+  </g>
+
+  <!-- row: Favourite -->
+  <text x="64" y="412" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#F5EAE8">Favourite</text>
+  <text x="64" y="436" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#A8909F">a quick hello &#8212; short and gentle</text>
+  <rect x="390" y="391" width="300" height="80" fill="#1D1620" stroke="#F5EAE8" stroke-opacity="0.14"/>
+  <g transform="translate(390,391) scale(1.25)" fill="none">
+    <line x1="0" y1="20" x2="240" y2="20" stroke="#F5EAE8" stroke-opacity="0.07"/>
+    <line x1="0" y1="56" x2="240" y2="56" stroke="#F5EAE8" stroke-opacity="0.07"/>
+    <path d="M8 56 L20 56 L20 46 L70 46 L70 56 L232 56" stroke="#FF3E8F" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+  <text x="680" y="461" text-anchor="end" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="12" fill="#6E5C68">20% &#183; 3s</text>
+
+  <!-- row: Boost -->
+  <text x="64" y="562" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#FF9A56">Boost</text>
+  <text x="64" y="586" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#A8909F">stronger and held longer</text>
+  <rect x="390" y="541" width="300" height="80" fill="#1D1620" stroke="#F5EAE8" stroke-opacity="0.14"/>
+  <g transform="translate(390,541) scale(1.25)" fill="none">
+    <line x1="0" y1="20" x2="240" y2="20" stroke="#F5EAE8" stroke-opacity="0.07"/>
+    <line x1="0" y1="56" x2="240" y2="56" stroke="#F5EAE8" stroke-opacity="0.07"/>
+    <path d="M8 56 L20 56 L20 32 L153 32 L153 56 L232 56" stroke="#FF9A56" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+  <text x="680" y="611" text-anchor="end" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="12" fill="#6E5C68">50% &#183; 8s</text>
+
+  <!-- row: Quote -->
+  <text x="64" y="712" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#FF3E8F">Quote</text>
+  <text x="64" y="736" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#A8909F">builds the further it travels</text>
+  <rect x="390" y="691" width="300" height="80" fill="#1D1620" stroke="#F5EAE8" stroke-opacity="0.14"/>
+  <g transform="translate(390,691) scale(1.25)" fill="none">
+    <line x1="0" y1="20" x2="240" y2="20" stroke="#F5EAE8" stroke-opacity="0.07"/>
+    <line x1="0" y1="56" x2="240" y2="56" stroke="#F5EAE8" stroke-opacity="0.07"/>
+    <path d="M8 56 L20 56 L186 27 L186 56 L232 56" stroke="#FF3E8F" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+  <text x="680" y="761" text-anchor="end" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="12" fill="#6E5C68">&#8594;60% &#183; 10s</text>
+
+  <!-- row: Reply -->
+  <text x="64" y="862" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#FF9A56">Reply</text>
+  <text x="64" y="886" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#A8909F">yours to write &#8212; see below</text>
+  <rect x="390" y="841" width="300" height="80" fill="#1D1620" stroke="#F5EAE8" stroke-opacity="0.14"/>
+  <g transform="translate(390,841) scale(1.25)" fill="none">
+    <line x1="0" y1="20" x2="240" y2="20" stroke="#F5EAE8" stroke-opacity="0.07"/>
+    <line x1="0" y1="56" x2="240" y2="56" stroke="#F5EAE8" stroke-opacity="0.07"/>
+    <path d="M8 56 C 40 56, 55 16, 80 16 C 105 16, 120 46, 145 46 C 170 46, 185 16, 210 16 L 232 16" stroke="#FF9A56" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+  <text x="680" y="911" text-anchor="end" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="12" fill="#6E5C68">your call</text>
+
+  <!-- control panel: reply syntax + glyphs -->
+  <rect x="64" y="986" width="772" height="300" fill="#1D1620" stroke="#B32E68"/>
+  <text x="88" y="1026" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#FF3E8F">REPLY &#8212; WRITE YOUR OWN SIGNAL</text>
+  <text x="88" y="1084" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="34" font-weight="500"><tspan fill="#FF9A56">70%</tspan><tspan fill="#F5EAE8"> 10s </tspan><tspan fill="#FF3E8F">&#127754;</tspan></text>
+
+  <text font-family="Arial, Helvetica, sans-serif" font-size="13" y="1118">
+    <tspan x="88" fill="#A8909F">intensity</tspan><tspan fill="#6E5C68"> &#8212; any number + %</tspan>
+  </text>
+  <text font-family="Arial, Helvetica, sans-serif" font-size="13" y="1118">
+    <tspan x="340" fill="#A8909F">duration</tspan><tspan fill="#6E5C68"> &#8212; any number + s</tspan>
+  </text>
+  <text font-family="Arial, Helvetica, sans-serif" font-size="13" y="1118">
+    <tspan x="590" fill="#A8909F">shape</tspan><tspan fill="#6E5C68"> &#8212; one glyph below</tspan>
+  </text>
+
+  <!-- glyphs -->
+  <g>
+    <rect x="88" y="1144" width="166" height="118" fill="#241B27" stroke="#F5EAE8" stroke-opacity="0.14"/>
+    <g transform="translate(137.4,1158) scale(1.3)" fill="none" stroke="#FF3E8F" stroke-width="2">
+      <path d="M2 20 C 8 6, 16 6, 22 20 C 28 34, 36 34, 42 20"/>
+    </g>
+    <text x="171" y="1234" text-anchor="middle" font-size="26">&#127754;</text>
+    <text x="171" y="1254" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="500" letter-spacing="1" fill="#A8909F">WAVE</text>
+  </g>
+  <g>
+    <rect x="268" y="1144" width="166" height="118" fill="#241B27" stroke="#F5EAE8" stroke-opacity="0.14"/>
+    <g transform="translate(317.4,1158) scale(1.3)" fill="none" stroke="#FF3E8F" stroke-width="2">
+      <path d="M2 26 L8 26 L8 8 L18 8 L18 26 L28 26 L28 8 L38 8 L38 26 L46 26"/>
+    </g>
+    <text x="351" y="1234" text-anchor="middle" font-size="26">&#128147;</text>
+    <text x="351" y="1254" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="500" letter-spacing="1" fill="#A8909F">PULSE</text>
+  </g>
+  <g>
+    <rect x="448" y="1144" width="166" height="118" fill="#241B27" stroke="#F5EAE8" stroke-opacity="0.14"/>
+    <g transform="translate(497.4,1158) scale(1.3)" fill="none" stroke="#FF3E8F" stroke-width="2">
+      <path d="M2 26 L10 26 L10 4 L15 4 L15 21 L46 21"/>
+    </g>
+    <text x="531" y="1234" text-anchor="middle" font-size="26">&#9889;</text>
+    <text x="531" y="1254" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="500" letter-spacing="1" fill="#A8909F">BURST</text>
+  </g>
+  <g>
+    <rect x="628" y="1144" width="166" height="118" fill="#241B27" stroke="#F5EAE8" stroke-opacity="0.14"/>
+    <g transform="translate(677.4,1158) scale(1.3)" fill="none" stroke="#FF3E8F" stroke-width="2">
+      <path d="M2 27 L46 4"/>
+    </g>
+    <text x="711" y="1234" text-anchor="middle" font-size="26">&#128293;</text>
+    <text x="711" y="1254" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="500" letter-spacing="1" fill="#A8909F">ESCALATE</text>
+  </g>
+
+  <!-- footer -->
+  <line x1="64" y1="1320" x2="836" y2="1320" stroke="#F5EAE8" stroke-opacity="0.14"/>
+  <text font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#A8909F">
+    <tspan x="64" y="1354"><tspan font-weight="700" fill="#F5EAE8">starts disarmed.</tspan> I choose when the line goes live &#8212;</tspan>
+    <tspan x="64" y="1380">every reaction is logged either way, felt only when I've switched it on.</tspan>
+  </text>
+  <text x="836" y="1380" text-anchor="end" font-family="ui-monospace, 'SF Mono', Consolas, monospace" font-size="14" font-weight="500" fill="#FF3E8F">kinkycats.org/@adatje</text>
+</svg>

@@ -1,0 +1,75 @@
+# Copy this file to config.yaml and fill in your details. config.yaml is gitignored.
+
+# --- Mastodon ---
+# Create an application at <your instance>/settings/applications/new with the "read" scope,
+# then copy the access token it gives you.
+mastodon_api_base_url: "https://mastodon.social"
+mastodon_access_token: "PASTE_YOUR_ACCESS_TOKEN_HERE"
+
+# How often to poll for new notifications.
+poll_interval_s: 15
+
+# --- Buttplug engine / toy ---
+# Leave engine_binary_path unset to auto-download intiface-engine on first run.
+# Only set this if your platform has no prebuilt binary and you installed one yourself
+# (e.g. `cargo install intiface-engine`).
+engine_binary_path: null
+engine_websocket_port: 12345
+
+# Substring to match against the toy's advertised name if you have more than one paired.
+# Leave null to just use the first device found while scanning.
+device_name_filter: null
+
+# How long (seconds) to scan for devices on startup. Turn your toy on and put it in
+# pairing/Bluetooth mode once the app logs "scanning for devices".
+scan_timeout_s: 15
+
+# Stream the raw intiface-engine process log to stderr. Leave false for normal use -
+# it floods the log with every device the scan sees. Turn on only when debugging engine issues.
+debug: false
+
+# --- Safety ---
+# Hard ceiling applied to every action, regardless of source (favourite/boost/quote/reply).
+max_intensity: 1.0       # 0.0 - 1.0
+max_duration_s: 30       # seconds, applies per single triggered action
+max_queued_seconds: 300  # total seconds allowed to be queued up at once (guards against a viral post)
+
+# Whether the toy is armed the moment the app starts, or you have to flip it on
+# from the dashboard yourself. Recommended: false.
+start_armed: false
+
+# Cooldown buffer (seconds) added on top of an action's own duration before the next
+# trigger is accepted, from any source. Only used to seed the setting on first ever run -
+# after that, the dashboard's rate-limit control is the source of truth (persisted in the db).
+rate_limit_buffer_s: 2
+
+# --- Event -> action mapping ---
+# pattern is one of: constant, pulse, wave, escalate, burst
+favourite_action:
+  intensity: 0.2
+  duration_s: 3
+  pattern: constant
+
+reblog_action:  # a boost
+  intensity: 0.5
+  duration_s: 8
+  pattern: constant
+
+quote_action:
+  intensity: 0.6
+  duration_s: 10
+  pattern: escalate
+
+# Replies are custom: numbers in the reply text override these defaults, e.g. "70% 10s".
+# Emoji in the reply pick the pattern shape (first match wins):
+#   🌊 = wave      💓 💗 💕 = pulse      ⚡ = burst      🔥 = escalate
+# No numbers/emoji found -> these defaults with a "constant" pattern.
+reply_default_intensity: 0.4
+reply_default_duration_s: 6
+
+# --- Dashboard ---
+dashboard_host: "127.0.0.1"
+dashboard_port: 8420
+
+# --- Storage ---
+db_path: "history.sqlite3"
